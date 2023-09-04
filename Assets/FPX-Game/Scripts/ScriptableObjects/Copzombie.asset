@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4c631848cd702d244ad9f81c624f31a6, type: 3}
+  m_Name: Copzombie
+  m_EditorClassIdentifier: 
+  Name: Copzombie
+  LevelText: Prepare for Wave 1
+  TargetPrefab: {fileID: 4535047137135357406, guid: bc059f3e3d8a76f4388c7f1bbe55f1b7, type: 3}
+  enemiesDesired: 15
+  enemiesCurrentCount: 0
+  countEnemy: 0
+  countEnemy2: 0
+  countEnemyAttacks: 0
+  MaxValueX: 26
+  MaxValueY: 26
+  MinValueX: -26
+  MinValueY: -26
+  YValue: 0.097
+  spawndelay: 2
+  damage: 300
+  isCompleted: 0
+  isReset: 0

@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Target
+  - Bullet
+  - Balloon
+  - Cube
+  - Magazine
+  - Spawn Poit
+  - Trigger
+  - Enemy
+  - Gun
+  - SAR2000
+  - M590
+  - AKM
+  - M10
+  - Floor
+  - GrabHand
+  - Case
+  - Rifle
+  - EnemyBody
+  - EnemyHead
+  - Table
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Raycast
+  - Grab
+  - Player
+  - Target
+  - Balloon
+  - Enemy
+  - Bullet
+  - Gun
+  - Floor
+  - Magazine
+  - AKM
+  - SAR2000
+  - M10
+  - EnemyBody
+  - RightAram
+  - PlayerLobby
+  - Trigger
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
