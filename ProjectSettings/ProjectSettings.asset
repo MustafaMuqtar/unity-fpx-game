@@ -12,8 +12,8 @@ PlayerSettings:
   targetDevice: 2
   useOnDemandResources: 0
   accelerometerFrequency: 60
-  companyName: VR AB
-  productName: VR Zombie Game
+  companyName: Bullseye Studios
+  productName: One target agent
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -39,7 +39,11 @@ PlayerSettings:
     y: 0
     width: 1
     height: 1
-  m_SplashScreenLogos: []
+  m_SplashScreenLogos:
+  - logo: {fileID: 21300000, guid: a3dfea84250167243baeaf6ea2a224ef, type: 3}
+    duration: 5
+  - logo: {fileID: 21300000, guid: 88e8a789a235d4940bb010107938257d, type: 3}
+    duration: 5
   m_VirtualRealitySplashScreen: {fileID: 0}
   m_HolographicTrackingLossScreen: {fileID: 0}
   defaultScreenWidth: 1920
@@ -155,8 +159,8 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.VRAB.VRZombieGame
-    Standalone: com.VR-AB.Shooting-Targe-tGame
+    Android: com.BullseyeStudios.Onetargetagent
+    Standalone: com.VR-AB.VR-Zombie-Game
   buildNumber:
     Standalone: 0
     iPhone: 0

@@ -13,7 +13,7 @@ namespace Assets.FPX_Game.Scripts.WeaponScripts
     {
 
         [SerializeField] private TextMeshProUGUI ammotDisplay;
-        [SerializeField] private AudioSource gunFireSound;
+        [SerializeField] FMODUnity.StudioEventEmitter gunFireSound;
         [SerializeField] private ParticleSystem muzzleFlash, casing;
         [SerializeField] private GameObject impactPrefab, raycastOrigin;
         [SerializeField] private GunScriptableObject weaponScriptable;
@@ -21,6 +21,9 @@ namespace Assets.FPX_Game.Scripts.WeaponScripts
         [SerializeField] private InputActionProperty triggerAction;
         [SerializeField] private InputActionProperty realeaseMagazineAction;
         [SerializeField] private InputActionProperty grabGunAction;
+        [SerializeField] private Animator cloneAnim, bossANim;
+
+
 
 
         private float _nextFire;
@@ -97,7 +100,16 @@ namespace Assets.FPX_Game.Scripts.WeaponScripts
 
                     }
 
+                    if (hittInfo.collider.tag == "Enemy")
+                    {
+                        cloneAnim.SetTrigger("IsDying");
+                    }
 
+                    if (hittInfo.collider.tag == "Table")
+                    {
+                        bossANim.SetTrigger("IsDying");
+
+                    }
 
                 }
             }

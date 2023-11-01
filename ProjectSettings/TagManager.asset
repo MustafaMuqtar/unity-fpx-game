@@ -24,6 +24,9 @@ TagManager:
   - EnemyBody
   - EnemyHead
   - Table
+  - Papper
+  - TalkingCell
+  - ConstructorWorker
   layers:
   - Default
   - TransparentFX

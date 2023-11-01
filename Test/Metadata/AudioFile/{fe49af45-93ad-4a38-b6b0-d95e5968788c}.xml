@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{fe49af45-93ad-4a38-b6b0-d95e5968788c}">
+		<property name="assetPath">
+			<value>Rob2.mp3</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>20.48</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d16295ae-9053-4dbc-8402-e251e4e92033}</destination>
+		</relationship>
+	</object>
+</objects>

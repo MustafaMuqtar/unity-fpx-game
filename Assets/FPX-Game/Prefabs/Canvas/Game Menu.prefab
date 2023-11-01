@@ -2626,7 +2626,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   head: {fileID: 0}
-  spawnDistance: 2
   menu: {fileID: 7299348845234974543}
   showButton:
     m_UseReference: 1
@@ -2640,6 +2639,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 5452102161952353511, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  _camera: {fileID: 0}
 --- !u!1 &7299348844574154400
 GameObject:
   m_ObjectHideFlags: 0
@@ -3061,7 +3061,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   head: {fileID: 0}
-  spawnDistance: 2
   menu: {fileID: 7299348845234974543}
   showButton:
     m_UseReference: 1
@@ -3075,6 +3074,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 5452102161952353511, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+  _camera: {fileID: 0}
 --- !u!1 &7299348845428379295
 GameObject:
   m_ObjectHideFlags: 0

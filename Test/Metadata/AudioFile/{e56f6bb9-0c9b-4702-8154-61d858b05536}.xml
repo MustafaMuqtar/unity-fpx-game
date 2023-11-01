@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{e56f6bb9-0c9b-4702-8154-61d858b05536}">
+		<property name="assetPath">
+			<value>Goldstein.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.3322448979591837</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d16295ae-9053-4dbc-8402-e251e4e92033}</destination>
+		</relationship>
+	</object>
+</objects>

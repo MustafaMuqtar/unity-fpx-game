@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{3b48006f-dee6-4172-97c3-eb8b166a04bd}">
+		<property name="assetPath">
+			<value>digital-phone-ring-88932.mp3</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>24</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>3.7679999999999998</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{d16295ae-9053-4dbc-8402-e251e4e92033}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -6,11 +6,20 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/FPX-Game/Scenes/Lobby.unity
+    path: Assets/FPX-Game/Scenes/Scene1.unity
     guid: 5e3627010dc85e64e9d485d20b00c41c
   - enabled: 1
     path: Assets/FPX-Game/Scenes/Zombie Fight.unity
     guid: 1e2f5bf47d3089145adda9c80e1561e2
+  - enabled: 1
+    path: Assets/FPX-Game/Scenes/Scene2.unity
+    guid: eeabfdba185b5434a9eebab754a9ac66
+  - enabled: 1
+    path: Assets/FPX-Game/Scenes/Scene3.unity
+    guid: 6236b4f7cc2ee7b4fa0be998252133e9
+  - enabled: 1
+    path: Assets/FPX-Game/Scenes/Scene4.unity
+    guid: dad7b1d0a451fec43bec2ba035eb6cac
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 183d7b21311dcc4428875d91d120f895, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a101f6b1849b52f449666882343040e4, type: 2}

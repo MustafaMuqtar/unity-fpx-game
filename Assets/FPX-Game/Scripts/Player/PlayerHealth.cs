@@ -27,7 +27,7 @@ namespace Assets.FPX_Game.Scripts.Player
             slider.value = champScriptableObject.health;
         }
 
-   
+
         public void TakeDamage(float amount)
         {
 
@@ -40,7 +40,7 @@ namespace Assets.FPX_Game.Scripts.Player
             slider.value = champScriptableObject.health;
             if (champScriptableObject.health <= 0)
             {
-               
+
 
                 StartCoroutine(GameOver());
 
@@ -59,7 +59,7 @@ namespace Assets.FPX_Game.Scripts.Player
         IEnumerator GameOver()
         {
             yield return new WaitForSeconds(2f);
-        
+
 
             show.SetActive(true);
 
