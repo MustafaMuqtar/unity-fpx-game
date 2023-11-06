@@ -11,8 +11,9 @@ public class NavEnemy : MonoBehaviour
 {
     [SerializeField] private EnemyScriptableObject enemyScriptableObject;
     [SerializeField] private ChampScriptableObject champScriptableObject;
-    [SerializeField] private AudioSource audioSource;
-    [SerializeField] private AudioClip zombieScream;
+  
+    [SerializeField] FMODUnity.StudioEventEmitter zombieScream;
+
 
 
 
@@ -63,8 +64,9 @@ public class NavEnemy : MonoBehaviour
         if (other.gameObject.layer == LayerMask.NameToLayer("Trigger"))
         {
             _anim.SetBool("IsRunning", true);
-            audioSource.PlayOneShot(zombieScream);
-            audioSource.maxDistance = 10;
+           // audioSource.PlayOneShot(zombieScream);
+          // audioSource.maxDistance = 10;
+            zombieScream.Play();
 
 
         }

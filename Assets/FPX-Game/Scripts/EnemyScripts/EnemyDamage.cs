@@ -19,8 +19,9 @@ namespace Assets.FPX_Game.Scripts.TargetScripts
         [SerializeField] private Slider slider;
         [SerializeField] private TextMeshProUGUI damageHealthDisplay;
         [SerializeField] private EnemyScriptableObject enemyScriptableObject;
-        [SerializeField] private AudioSource audioSource;
-        [SerializeField] private AudioClip zombieTalk;
+
+        [SerializeField] FMODUnity.StudioEventEmitter zombieTalk;
+
         [SerializeField] private float health;
         [SerializeField] private float maxhealth;
 
@@ -50,8 +51,7 @@ namespace Assets.FPX_Game.Scripts.TargetScripts
             slider.value = health;
             slider.gameObject.SetActive(true);
 
-            audioSource.PlayOneShot(zombieTalk);
-            audioSource.maxDistance = 50;
+           // zombieTalk.Play();
 
         }
 
@@ -72,7 +72,7 @@ namespace Assets.FPX_Game.Scripts.TargetScripts
             if (health <= 0)
             {
                 StartCoroutine(Die());
-                audioSource.Stop();
+                zombieTalk.Stop();
 
             }
 

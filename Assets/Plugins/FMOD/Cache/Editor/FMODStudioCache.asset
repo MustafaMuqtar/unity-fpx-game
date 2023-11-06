@@ -1,5 +1,59 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8639608267173035199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/LobbySong
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/LobbySong
+  Guid:
+    Data1: -101899914
+    Data2: 1250730172
+    Data3: 409189256
+    Data4: 836280085
+  Banks:
+  - {fileID: 7377064246501036343}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 104139
+--- !u!114 &-6063451125787930430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/ConstructionAmbience
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/ConstructionAmbience
+  Guid:
+    Data1: 881023572
+    Data2: 1218407591
+    Data3: 1542318995
+    Data4: -2038692997
+  Banks:
+  - {fileID: 7377064246501036343}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 61440
 --- !u!114 &-5388215244701618391
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +96,10 @@ MonoBehaviour:
   Path: Test/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638327710971157602
+  lastModified: 638348243661191722
   FileSizes:
   - Name: Desktop
-    Value: 1168
+    Value: 1422
   Exists: 1
 --- !u!114 &-3312490523353333493
 MonoBehaviour:
@@ -74,6 +128,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 480
+--- !u!114 &-3163973831767354034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Zombie/ZombieTalk
+  m_EditorClassIdentifier: 
+  Path: event:/Zombie/ZombieTalk
+  Guid:
+    Data1: 826967897
+    Data2: 1091322072
+    Data3: 901256348
+    Data4: -1680011695
+  Banks:
+  - {fileID: 7377064246501036343}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 23568
 --- !u!114 &-2529780645560500392
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -96,11 +177,11 @@ MonoBehaviour:
   - {fileID: 7377064246501036343}
   IsStream: 0
   Is3D: 1
-  IsOneShot: 0
+  IsOneShot: 1
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1200
+  Length: 560
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -126,12 +207,17 @@ MonoBehaviour:
   - {fileID: 775986858534282735}
   - {fileID: 5472798701422921123}
   - {fileID: 7417486504166089234}
+  - {fileID: -6063451125787930430}
+  - {fileID: -8639608267173035199}
+  - {fileID: 3054416779418219096}
+  - {fileID: 8300979793782468188}
+  - {fileID: -3163973831767354034}
   EditorParameters: []
   MasterBanks:
   - {fileID: 7377064246501036343}
   StringsBanks:
   - {fileID: -3345416624052813583}
-  cacheTime: 638327710971157602
+  cacheTime: 638348243661191722
   cacheVersion: 131608
 --- !u!114 &252374717251170702
 MonoBehaviour:
@@ -186,7 +272,7 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 1627
+  Length: 60
 --- !u!114 &2593423890556798325
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -214,6 +300,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 9896
+--- !u!114 &3054416779418219096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Environment/ZombieSmbie
+  m_EditorClassIdentifier: 
+  Path: event:/Environment/ZombieSmbie
+  Guid:
+    Data1: -749385622
+    Data2: 1241692421
+    Data3: 1675506606
+    Data4: -1250592149
+  Banks:
+  - {fileID: 7377064246501036343}
+  IsStream: 1
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 121392
 --- !u!114 &3186407884139260231
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -283,10 +396,10 @@ MonoBehaviour:
   Path: Test/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638327710971130668
+  lastModified: 638348243661166493
   FileSizes:
   - Name: Desktop
-    Value: 1764064
+    Value: 6601760
   Exists: 1
 --- !u!114 &7417486504166089234
 MonoBehaviour:
@@ -315,3 +428,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 80013
+--- !u!114 &8300979793782468188
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Zombie/ZombieScream
+  m_EditorClassIdentifier: 
+  Path: event:/Zombie/ZombieScream
+  Guid:
+    Data1: 1877872145
+    Data2: 1183350910
+    Data3: 258851732
+    Data4: 504732779
+  Banks:
+  - {fileID: 7377064246501036343}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 10056

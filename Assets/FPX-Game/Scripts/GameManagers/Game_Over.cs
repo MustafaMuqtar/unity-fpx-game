@@ -20,5 +20,15 @@ namespace Assets.FPX_Game.Scripts.GameManagers
         {
             SceneManager.LoadScene(name);
         }
+
+        public void  StartPractice()
+        {
+            AgentBaseScene1.practiceScenStart = true;
+        }
+
+        public void StartMission()
+        {
+            AgentBaseScene1.practiceScenStart = false;
+        }
     }
 }

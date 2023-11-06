@@ -11,7 +11,6 @@ public class SpawnEnemy : MonoBehaviour
     [SerializeField] private TextMeshProUGUI numberCount, levelText, anotherText, gameCompleted;
     [SerializeField] private EnemyScriptableObject enemyScriptableObject;
     [SerializeField] private ChampScriptableObject champScriptableObject;
-    [SerializeField] private AudioSource audioLevelStart, audioLevelCount;
     [SerializeField] private GameObject canvas;
     [SerializeField] private GameObject _camera;
     [SerializeField] private Slider slider;
@@ -50,7 +49,7 @@ public class SpawnEnemy : MonoBehaviour
 
     IEnumerator LevelCountDownLV1(int timeremaning = 10)
     {
-        audioLevelCount.Play();
+
 
         for (int f = timeremaning; f > 0; f--)
         {
@@ -66,7 +65,7 @@ public class SpawnEnemy : MonoBehaviour
             yield return new WaitForSeconds(1);
 
         }
-        audioLevelCount.Stop();
+
 
         anotherText.enabled = false;
         StartCoroutine(SpawnRandomEnemiesLV1());
@@ -77,7 +76,7 @@ public class SpawnEnemy : MonoBehaviour
     {
         canvas.SetActive(false);
 
-        audioLevelStart.Play();
+
 
 
         for (int i = enemyScriptableObject.enemiesCurrentCount; i < enemyScriptableObject.enemiesDesired; i++)
@@ -97,7 +96,7 @@ public class SpawnEnemy : MonoBehaviour
 
     public void StartLevelCountDownLV2()
     {
-        audioLevelStart.Stop();
+
         StartCoroutine(LevelCountDownLV2());
 
     }
@@ -106,7 +105,7 @@ public class SpawnEnemy : MonoBehaviour
     {
 
 
-        audioLevelStart.Stop();
+
         for (int f = timeremaning; f > 0; f--)
         {
             canvas.SetActive(true);
@@ -131,7 +130,6 @@ public class SpawnEnemy : MonoBehaviour
         enemyScriptableObject.isCompleted = true;
         canvas.SetActive(false);
 
-        audioLevelStart.Play();
 
 
         for (int i = enemyScriptableObject.enemiesCurrentCount; i < enemyScriptableObject.enemiesDesired + 5; i++)

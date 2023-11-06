@@ -13,7 +13,9 @@ namespace Assets.FPX_Game.Scripts.WeaponScripts
         [SerializeField] private TextMeshProUGUI weapaonName;
         [SerializeField] private GunScriptableObject weaponScriptable;
         [SerializeField] private Button _button;
-        [SerializeField] private GameObject[] weaponCanvas;
+        [SerializeField] private GameObject[] showWeaponCanvas;
+        [SerializeField] private GameObject[] hideWeaponCanvas;
+        [SerializeField] private Transform mag,gun;
 
         private Rigidbody _rb;
 
@@ -37,6 +39,15 @@ namespace Assets.FPX_Game.Scripts.WeaponScripts
             weapaonName.text = weaponScriptable.name.ToString();
 
             _button.interactable = true;
+            foreach (var item in hideWeaponCanvas)
+            {
+                if (item.transform.IsChildOf(gun) || item.transform.IsChildOf(mag))
+                {
+                    item.SetActive(false);
+
+                }
+
+            }
 
 
         }
@@ -51,26 +62,28 @@ namespace Assets.FPX_Game.Scripts.WeaponScripts
         {
             if (collision.gameObject.CompareTag("Floor"))
             {
+
                 transform.SetParent(parent);
 
                 gameObject.transform.position = spawnPlace.transform.position;
                 gameObject.transform.rotation = spawnPlace.transform.rotation;
 
                 _rb.isKinematic = true;
-                foreach (var item in weaponCanvas)
+                foreach (var item in showWeaponCanvas)
                 {
                     if (item.activeInHierarchy)
                     {
-                        item.SetActive(false);
+                        item.SetActive(true);
 
                     }
 
                 }
+
+             
             }
 
             if (collision.gameObject.CompareTag("Table"))
             {
-                Debug.Log("table");
                 _rb.isKinematic = false;
 
             }

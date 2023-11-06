@@ -100,7 +100,7 @@ namespace Assets.FPX_Game.Scripts.WeaponScripts
 
                     }
 
-                    if (hittInfo.collider.tag == "Enemy")
+                    if (hittInfo.collider.tag == "TalkingCell")
                     {
                         cloneAnim.SetTrigger("IsDying");
                     }

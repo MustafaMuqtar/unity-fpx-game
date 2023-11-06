@@ -13,10 +13,19 @@ namespace Assets.FPX_Game.Scripts.ControllerScripts
 
 
         [SerializeField] Transform head;
-        [SerializeField] GameObject menu;
+        [SerializeField] GameObject menu, wristHide, wristShow;
         [SerializeField] InputActionProperty showButton;
         [SerializeField] private GameObject _camera;
 
+        public static bool practiceScenStart = false;
+        private void Start()
+
+        {
+            if (practiceScenStart)
+            {
+                PracticeScen();
+            }
+        }
         void Update()
         {
             transform.rotation = Quaternion.LookRotation(transform.position - _camera.transform.position);
@@ -76,7 +85,14 @@ namespace Assets.FPX_Game.Scripts.ControllerScripts
                 yield return null;
             }
         }
+        public void PracticeScen()
+        {
+            wristHide.SetActive(false);
+            wristShow.SetActive(true);
+
+        }
     }
+
 }
 
 

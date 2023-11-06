@@ -25,7 +25,7 @@ MonoBehaviour:
   MinValueX: -26
   MinValueY: -26
   YValue: 0.097
-  spawndelay: 2
+  spawndelay: 2.5
   damage: 300
   isCompleted: 0
   isReset: 0
