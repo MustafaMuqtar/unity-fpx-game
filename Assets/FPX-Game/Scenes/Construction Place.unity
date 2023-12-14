@@ -3954,8 +3954,8 @@ MonoBehaviour:
       Data4: -2038692997
     Path: event:/Environment/ConstructionAmbience
   Event: 
-  PlayEvent: 1
-  StopEvent: 0
+  PlayEvent: 11
+  StopEvent: 12
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0

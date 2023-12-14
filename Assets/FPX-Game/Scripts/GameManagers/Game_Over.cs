@@ -21,8 +21,9 @@ namespace Assets.FPX_Game.Scripts.GameManagers
             SceneManager.LoadScene(name);
         }
 
-        public void  StartPractice()
+        public void StartPractice()
         {
+            StartMissionScene3.hideHand = true;
             AgentBaseScene1.practiceScenStart = true;
         }
 
