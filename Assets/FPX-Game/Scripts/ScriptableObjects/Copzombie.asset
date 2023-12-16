@@ -15,9 +15,9 @@ MonoBehaviour:
   Name: Copzombie
   LevelText: Prepare for Wave 1
   TargetPrefab: {fileID: 4535047137135357406, guid: bc059f3e3d8a76f4388c7f1bbe55f1b7, type: 3}
-  enemiesDesired: 15
+  enemiesDesired: 10
   enemiesCurrentCount: 0
-  countEnemy: 0
+  countEnemy: 15
   countEnemy2: 0
   countEnemyAttacks: 0
   MaxValueX: 26
@@ -25,7 +25,7 @@ MonoBehaviour:
   MinValueX: -26
   MinValueY: -26
   YValue: 0.097
-  spawndelay: 2.5
+  spawndelay: 3
   damage: 300
   isCompleted: 0
   isReset: 0

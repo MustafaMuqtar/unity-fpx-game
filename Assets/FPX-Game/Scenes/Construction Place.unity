@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 23800000, guid: 2f2a512bdfc2da345822fbb1651febb1, type: 2}
+  m_NavMeshData: {fileID: 23800000, guid: ccf3bfbdb66335541a8533f867384a85, type: 2}
 --- !u!64 &7720993
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -2456,6 +2456,103 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4161064231015041826, guid: 1b02bb382ca2eee4d90df31d25be712f, type: 3}
+--- !u!1001 &1211394052
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 7239507023096266243, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239507023096266243, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1.003
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239507023096266243, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.9755888
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239507023096266243, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239507023096266243, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239507023096266243, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239507023096266243, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239507023096266243, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239507023096266243, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239507023096266243, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 7239507023096266243, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015340722228651193, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_Name
+      value: SAR2000
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015340722228651193, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8015340722228651198, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: gun
+      value: 
+      objectReference: {fileID: 3002487150156344428}
+    - target: {fileID: 8015340722228651198, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: mag
+      value: 
+      objectReference: {fileID: 741321874654124505}
+    - target: {fileID: 8015340722228651198, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: icon
+      value: 
+      objectReference: {fileID: 3002487151262256343}
+    - target: {fileID: 8015340722228651198, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: parent
+      value: 
+      objectReference: {fileID: 3002487150156344428}
+    - target: {fileID: 8015340722228651198, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: _button
+      value: 
+      objectReference: {fileID: 3002487149925965194}
+    - target: {fileID: 8015340722228651198, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: spawnPlace
+      value: 
+      objectReference: {fileID: 3002487150156344429}
+    - target: {fileID: 8015340722228651198, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: weapaonName
+      value: 
+      objectReference: {fileID: 3002487149665810200}
+    - target: {fileID: 8015340722228651199, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: bossANim
+      value: 
+      objectReference: {fileID: 1532051618}
+    - target: {fileID: 8015340722228651199, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
+      propertyPath: cloneAnim
+      value: 
+      objectReference: {fileID: 1671662161}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ec7d918d31bb202498934465b69b0a92, type: 3}
 --- !u!1 &1243899208
 GameObject:
   m_ObjectHideFlags: 0
@@ -4011,6 +4108,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 2.4744356, z: 1}
   m_Center: {x: 0, y: 0.7372174, z: 0}
+--- !u!95 &1532051618 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: 3ed490ab72d0d6a4d808834ea9173d4c, type: 3}
+  m_PrefabInstance: {fileID: 465027740}
+  m_PrefabAsset: {fileID: 0}
 --- !u!64 &1587963475
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -5606,6 +5708,7 @@ MonoBehaviour:
   - {fileID: 8239625616075559886}
   - {fileID: 5080121549795152548}
   - {fileID: 1409180426}
+  hidehand: {fileID: 0}
 --- !u!1 &1935064960
 GameObject:
   m_ObjectHideFlags: 0
@@ -14939,8 +15042,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   head: {fileID: 0}
   menu: {fileID: 5955503853326467783}
-  wristHide: {fileID: 0}
-  wristShow: {fileID: 0}
+  wristHide: {fileID: 3002487150901863041}
+  wristShow: {fileID: 3002487150901863041}
   showButton:
     m_UseReference: 1
     m_Action:
@@ -14953,7 +15056,7 @@ MonoBehaviour:
       m_SingletonActionBindings: []
       m_Flags: 0
     m_Reference: {fileID: 5452102161952353511, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-  _camera: {fileID: 0}
+  _camera: {fileID: 3002487149511253221}
 --- !u!4 &5955503851943241225
 Transform:
   m_ObjectHideFlags: 0
